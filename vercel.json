@@ -1,0 +1,22 @@
+{
+  "env": {
+    "NEXT_PUBLIC_REST_API_ENDPOINT": "Put your api endpoint here",
+    "NEXT_PUBLIC_SITE_URL": "https://rudishule.com/",
+    "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "Put your stripe public key here",
+    "NEXT_PUBLIC_GOOGLE_API_KEY": "Put your google api key here",
+    "NEXT_PUBLIC_SERVER_URL": "https://rudicloud.vercel.app/api/v1/",
+    "NEXT_PUBLIC_VERIFY_URL": "https://verify.rudishule.com",
+    "NEXT_PUBLIC_FLW_PUBKEY": "FLWPUBK_TEST-c58d1fc249b2d37194e0596380d696b7-X"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_REST_API_ENDPOINT": "Put your api endpoint here",
+      "NEXT_PUBLIC_SITE_URL": "https://rudishule.com/",
+      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "Put your stripe public key here",
+      "NEXT_PUBLIC_GOOGLE_API_KEY": "Put your google api key here",
+      "NEXT_PUBLIC_SERVER_URL": "https://ruduapi.vercel.app/api/v1/",
+      "NEXT_PUBLIC_VERIFY_URL": "https://verify.rudishule.com",
+      "NEXT_PUBLIC_FLW_PUBKEY": "FLWPUBK_TEST-c58d1fc249b2d37194e0596380d696b7-X"
+    }
+  }
+}
