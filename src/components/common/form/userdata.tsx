@@ -21,12 +21,12 @@ export default function userdata() {
  }, [])
   const config = {
     //public_key: process.env.NEXT_PUBLIC_FLW_PUBKEY,
-    public_key: 'FLWPUBK-322e2e927dcdd2d1b97d9ca49f971348-X',
+    public_key: 'FLWPUBK-43af16e69652a96329c518589d0ecb6c-X',
     tx_ref: Date.now(),
     amount: total,
     currency: 'UGX',
     payment_options: 'mobilemoney,card',
-    redirect_url: 'https://verify.rudishule.com',
+    redirect_url: 'https://verify.rudishule.com/app.php',
     meta: {
       delivery_address: address,
       phone_number: mobile,
