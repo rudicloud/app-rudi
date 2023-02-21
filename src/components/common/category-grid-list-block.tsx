@@ -98,7 +98,6 @@ const CategoryGridListBlock: React.FC<CategoriesProps> = ({
                           key={`category--key-${category.id}`}
                           className="p-1.5 md:p-2"
                         >
-                      <p>Select Category from here</p>
                           <CategoryListCard
                             category={category}
                             href={{
