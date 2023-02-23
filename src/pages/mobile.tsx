@@ -21,7 +21,7 @@ export default function Home() {
       <Seo
         title="Rudi Shule"
         description="Rudi Sule | School Shopping at your fingertips."
-        path="/"
+        path="/mobile"
       />
       <Container>
       <BannerThree />
