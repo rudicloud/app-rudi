@@ -22,7 +22,7 @@ export default function Home() {
       <Seo
         title="Rudi Shule"
         description="Rudi Shule | School Shopping at your fingertips."
-        path="/old"
+        path="/"
       />
 
       <Container>
