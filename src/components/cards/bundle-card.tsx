@@ -21,8 +21,8 @@ interface Props {
 
 const BundleCard: React.FC<Props> = ({
   bundle,
-  imgWidth = 180,
-  imgHeight = 150,
+  imgWidth = 100,
+  imgHeight = 100,
   className = '',
   thumbnailClassName = 'w-36 lg:w-32 xl:w-40 2xl:w-36 3xl:w-[180px] ltr:pr-1.5 rtl:pl-1.5 2xl:ltr:pr-2.5 2xl:rtl:pl-2.5',
   href,
@@ -35,7 +35,7 @@ const BundleCard: React.FC<Props> = ({
         className="relative flex items-center w-full overflow-hidden"
         style={{ backgroundColor: bgColor }}
       >
-        <div className={cn('flex shrink-0', thumbnailClassName)}>
+        <div className={cn('flex shrink-0')}>
           <Image
             src={image ?? '/assets/placeholder/collection.svg'}
             alt={t(title) || t('text-card-thumbnail')}

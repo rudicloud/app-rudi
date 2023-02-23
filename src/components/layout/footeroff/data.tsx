@@ -12,23 +12,17 @@ export const footer = {
         {
           id: 2,
           
-          title: '+256772 474631',
+          title: '+256772474631',
           path: '#',
         },
         {
           id: 4,
           
-          title: '+256701 969013',
+          title: 'Address',
           path: '#',
         },
-      ],
-    },
-    {
-      id: 2,
-      widgetTitle: 'Address',
-      lists: [
         {
-          id: 1,
+          id: 4,
           
           title: 'Nguvu House, Nateete, Uganda, P.O.Box 114747, Kampala, Uganda',
           path: '#',
@@ -40,7 +34,7 @@ export const footer = {
           path: '#',
         },
         {
-          id: 3,
+          id: 4,
           
           title: 'customercare@rudishule.com',
           path: '#',
@@ -54,12 +48,17 @@ export const footer = {
         {
           id: 1,
           title: 'link-privacy',
-          path: '/privacy',
+          path: '/#',
         },
         {
           id: 2,
           title: 'link-terms',
-          path: '/terms',
+          path: '/#',
+        },
+        {
+          id: 3,
+          title: 'link-return-policy',
+          path: '/#',
         },
       ],
     },

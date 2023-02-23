@@ -1,12 +1,10 @@
-import BannerGridTwo from '@components/common/banner-grid-two';
-import { bannerGridMediumTwo as bannersMedium } from '@framework/static/banner';
-import { bannerDiscount } from '@framework/static/banner';
-import BannerAllCarousel from '@components/common/banner-all-carousel';
 import { useCategoriesQuery } from '@framework/category/get-all-categories';
 import CategoryListCard from '@components/cards/category-list-card';
 import { ROUTES } from '@utils/routes';
 import { LIMITS } from '@framework/utils/limits';
-import BannerThree from '@components/common/banner-three';
+//import BannerThree from '@components/common/banner-main';
+import HeroCarouselBlock from '@components/hero/hero-carousel-block';
+import { refinedSixHeroBanner as heroBanner } from '@framework/static/banner';
 
 interface Props {
   className?: string;
@@ -36,14 +34,9 @@ const HeroBannerWithCategory: React.FC<Props> = ({
           ))}
         </div>
       </div>
-      <div className="w-full trendy-main-content">
-        <BannerGridTwo data={bannersMedium} />
-        <BannerThree />
-        <BannerAllCarousel
-          data={bannerDiscount}
-          buttonSize="small"
-          className="mb-0"
-        />
+      <div className="w-full border rounded-md border-border-base">
+      <HeroCarouselBlock heroBanner={heroBanner} />
+
       </div>
     </div>
   );

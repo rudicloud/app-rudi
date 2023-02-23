@@ -7,7 +7,7 @@ const data = {
   description:
     'Rudi Shule makes online school scholastic materials shopping fast and easy. School Shopping at your fingertips.',
   appBG: 'https://res.cloudinary.com/deiryswyr/image/upload/v1674494188/app-bg_gsme43.png',
-  appImage: 'https://res.cloudinary.com/deiryswyr/image/upload/v1674494188/app-thumbnail-2_v5bpvv.png',
+  appImage: 'https://res.cloudinary.com/deiryswyr/image/upload/v1676421206/apps_nkw4n2.png',
   appButtons: [
     {
       id: 1,

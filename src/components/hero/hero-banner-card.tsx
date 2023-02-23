@@ -38,7 +38,7 @@ const HeroBannerCard: FC<BannerProps> = ({
         className
       )}
       style={{
-        backgroundImage: `url('${selectedImage.url}')`,
+        backgroundImage: `url('https://res.cloudinary.com/deiryswyr/image/upload/v1677087643/ban_vromcv.png')`,
         backgroundPosition: variant === 'antique' ? 'left bottom -10px' : '',
       }}
     >
@@ -67,7 +67,7 @@ const HeroBannerCard: FC<BannerProps> = ({
                 variant === 'antique',
             })}
           >
-            {t(title)}
+            jhgfd
           </h2>
           <p
             className={cn(
@@ -81,7 +81,7 @@ const HeroBannerCard: FC<BannerProps> = ({
               }
             )}
           >
-            {t(description)}
+            ijhgfdsajhgfd
           </p>
           {variant !== 'antique' && banner.btnText && (
             <Link

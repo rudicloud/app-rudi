@@ -14,7 +14,8 @@ const HeroCarouselBlock: React.FC<Props> = ({
   return (
     <div className={`${className}`}>
       <Carousel
-        autoplay={false}
+        autoplay={true}
+        navigation={false}
         prevActivateId="hero-carousel-button-prev"
         nextActivateId="hero-carousel-button-next"
       >

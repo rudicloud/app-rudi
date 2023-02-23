@@ -1,29 +1,29 @@
 export const bundleDataTwo = [
   {
     id: 1,
-    slug: 'nursery',
-    image: '/assets/images/bundle/nursery.png',
-    title: 'Nursery School Requirements',
+    slug: '/products',
+    image: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677141739/shop_irenbhss_e5oidm.png',
+    title: 'Go to Online Shop',
     description:
-      'Shop for all your Kindergarten and Pre-School going kids requirements',
+      'Shop for all your requirements online',
     bgColor: '#FFEED6',
   },
   {
     id: 2,
-    slug: 'primary',
-    image: '/assets/images/bundle/primary.png',
-    title: 'Primary  School Requirements',
+    slug: '/#',
+    image: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677141739/shop2_xi1jg6.png',
+    title: 'Visit our Store',
     description:
-      'Shop for all your Primary  School Requirements going pupils requirements',
+      'Nguvu House, Nateete',
     bgColor: '#D9ECD2',
   },
   {
     id: 3,
-    slug: 'secondary',
-    image: '/assets/images/bundle/secondary.png',
-    title: 'Secondary  School Requirements',
+    slug: '/products',
+    image: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677141739/shop_irenbh_skxllh.png',
+    title: 'Start Shopping',
     description:
-      'Shop for all your Secondary  School Requirements going Students requirements',
+      'Click to Start',
     bgColor: '#DBE5EF',
   },
 ];

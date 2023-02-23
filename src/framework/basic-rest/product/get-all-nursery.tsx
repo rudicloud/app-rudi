@@ -12,6 +12,7 @@ const fetchNursery = async ({ queryKey }: any) => {
   });
   const [_key, _params] = queryKey;
   const { data } = await api.get('products');
+  
   return {
     data: shuffle(data) as Product[],
     paginatorInfo: {
@@ -22,7 +23,7 @@ const fetchNursery = async ({ queryKey }: any) => {
 
 const useProductsQuery = (options: QueryOptionsType) => {
   return useInfiniteQuery<PaginatedProduct, Error>(
-    ['https://rudicloud.vercel.app/api/v1/products', options],
+    ['https://ruduapi.vercel.app/api/v1/products', options],
     fetchNursery,
     {
       getNextPageParam: ({ paginatorInfo }) => paginatorInfo.nextPageUrl,

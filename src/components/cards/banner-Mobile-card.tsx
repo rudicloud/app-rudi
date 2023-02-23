@@ -14,8 +14,8 @@ interface Props {
 
 const BannerMobileCard: React.FC<Props> = ({
   collection,
-  imgWidth = 440,
-  imgHeight = 280,
+  imgWidth = 1000,
+  imgHeight = 500,
   href,
 }) => {
   const { image, name } = collection;

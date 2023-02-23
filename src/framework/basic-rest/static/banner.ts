@@ -1,4 +1,6 @@
 export const homeTwoBanner = {
+
+
   id: 1,
   title: 'rudishule',
   slug: '/search',
@@ -390,14 +392,14 @@ export const refinedSixHeroBanner = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/hero/banner-mobile-5.png',
+        url: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677159409/banner-mobile_n46s6n.png',
         width: 450,
         height: 520,
       },
       desktop: {
-        url: '/assets/images/hero/banner-5.png',
+        url: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677158101/banner-1_dio1ji.png',
         width: 1840,
-        height: 370,
+        height: 520,
       },
     },
   },
@@ -407,14 +409,14 @@ export const refinedSixHeroBanner = [
     slug: '/search',
     image: {
       mobile: {
-        url: '/assets/images/hero/banner-mobile-6.png',
+        url: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677159409/bannermobile_xjztrf.png',
         width: 450,
         height: 520,
       },
       desktop: {
-        url: '/assets/images/hero/banner-6.png',
+        url: 'https://res.cloudinary.com/deiryswyr/image/upload/v1677158101/bannermain_fwrpes.png',
         width: 1840,
-        height: 370,
+        height: 520,
       },
     },
   },

@@ -19,7 +19,7 @@ const BannerThreeCard: React.FC<Props> = ({
   imgHeight = 280,
   href,
 }) => {
-  const { image_original, title, description } = collection;
+  const { image_original, title } = collection;
   const { t } = useTranslation('common');
   return (
     <Link
